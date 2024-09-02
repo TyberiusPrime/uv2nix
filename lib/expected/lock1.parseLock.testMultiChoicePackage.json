@@ -1,0 +1,82 @@
+{
+  "manifest": {
+    "members": []
+  },
+  "options": {
+    "exclude-newer": null,
+    "prerelease-mode": null,
+    "resolution-mode": null
+  },
+  "requires-python": [
+    {
+      "op": ">=",
+      "version": {
+        "dev": null,
+        "epoch": 0,
+        "local": null,
+        "post": null,
+        "pre": null,
+        "release": [
+          3,
+          12
+        ]
+      }
+    }
+  ],
+  "resolution-markers": {
+    "platform_release != '5.10.104' and platform_release != '5.10.65'": {
+      "lhs": {
+        "lhs": {
+          "type": "variable",
+          "value": "platform_release"
+        },
+        "op": "!=",
+        "rhs": {
+          "type": "string",
+          "value": "5.10.104"
+        },
+        "type": "compare"
+      },
+      "op": "and",
+      "rhs": {
+        "lhs": {
+          "type": "variable",
+          "value": "platform_release"
+        },
+        "op": "!=",
+        "rhs": {
+          "type": "string",
+          "value": "5.10.65"
+        },
+        "type": "compare"
+      },
+      "type": "boolOp"
+    },
+    "platform_release == '5.10.104'": {
+      "lhs": {
+        "type": "variable",
+        "value": "platform_release"
+      },
+      "op": "==",
+      "rhs": {
+        "type": "string",
+        "value": "5.10.104"
+      },
+      "type": "compare"
+    },
+    "platform_release == '5.10.65'": {
+      "lhs": {
+        "type": "variable",
+        "value": "platform_release"
+      },
+      "op": "==",
+      "rhs": {
+        "type": "string",
+        "value": "5.10.65"
+      },
+      "type": "compare"
+    }
+  },
+  "supported-markers": [],
+  "version": 1
+}
